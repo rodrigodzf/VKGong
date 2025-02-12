@@ -1,0 +1,12 @@
+# mlversion 1.0
+samplerate 2000
+
+# Nphi_min Npsi_min
+HfileDim 10 10
+
+# CircularImperfectPlate >> name >> nu >> Young >> rho >> Rd >> h >> H >> ImperfectionType >> tau2 >> modeType >> dFac >> dExp >> dCons >> BC >> KR >> KT >> Nphi >> Npsi >> Nr >> Nth
+CircularImperfectPlate plat1 0.38 2e11 7860 0.2 1e-2 0 s 0 0 0 0 0 f 0 0 10 3 500 500
+
+# output >> name >> op_th >> op _r
+output plat1 0.5 0.5
+output plat1 0.1 0.1

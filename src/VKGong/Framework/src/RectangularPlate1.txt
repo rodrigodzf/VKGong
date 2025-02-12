@@ -1,0 +1,11 @@
+# mlversion 1.0
+samplerate 10000
+
+# Nphi_min Npsi_min
+HfileDim 10 10
+
+# RectangularImperfectPlate >> name >> nu >> Young >> rho >> Lx >> Ly >> h >> H >> ImperfectionType >> xWidth >> yWidth >> modeType >> dFac >> dExp >> dCons >> Nphi >> Npsi >> BC >> Nx >> Ny;
+RectangularImperfectPlate plat1 0.38 2e11 7860 0.3 0.2 1e-3 0 r 0.1 0.05 0 0 0 0 50 30 s 500 500
+
+# output >> name >> op_x>> op _y
+output plat1 0.10 0.10
